@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans:wght@300;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <h1 class="header__title">
+          Надувний матрац <span>Intex</span> (56874)
+        </h1>
+        <div class="slider">
+          <div class="slides">
+            <img src="./images/photo2.jpg" alt="Product Image 2" />
+            <img src="./images/mainPhoto.png" alt="Product Image 1" />
+            <img src="./images/photo3.jpg" alt="Product Image 3" />
+            <img src="./images/funPhoto.jpg" alt="Product Image 3" />
+            <!-- Добавьте другие изображения товара здесь -->
+          </div>
+          <div class="controls">
+            <button class="prev-btn">
+              <svg class="prev-icon" width="30px" height="30px">
+                <use href="./images/symbolDefs.svg#icon-left"></use>
+              </svg>
+            </button>
+            <button class="next-btn">
+              <svg class="next-icon" width="30px" height="30px">
+                <use href="./images/symbolDefs.svg#icon-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="header__prices">
+          <div class="header__prices-block">
+            <p>Стара ціна</p>
+            <span class="header__prices-span line-through">1499</span>
+          </div>
+          <div class="header__prices-block">
+            <p>Нова ціна</p>
+            <span class="header__prices-span">1299</span>
+          </div>
+        </div>
+        <div class="header__timer">
+          <p>До кінця розпродажу залишилось:</p>
+          <div id="countdown"></div>
+        </div>
+        <a href="#order-form" class="to__order-btn"
+          ><p>Замовити зі знижкою</p></a
+        >
+      </header>
+      <!-- SECTION-DETAILS -->
+      <section class="section-details">
+        <h3 class="section-details__title">
+          Детальніше про надувний матрац <span>Intex</span>
+        </h3>
+        <p class="section-details__descr">
+          Цей шезлонг легко надувається і спухає, що дозволяє вам швидко
+          встановити його на пляжі або біля басейну. Зручний, міцний і стильний,
+          пляжний надувний шезлонг Intex - ідеальний вибір для вашого відпочинку
+          на пляжі або біля басейну!
+        </p>
+        <div class="section-details__img">
+          <img src="./images/beautifulPhoto.jpg" alt="descrPhoto" />
+        </div>
+        <p class="section-details__descr2">
+          Він виготовлений з міцного матеріалу, що забезпечує тривалість і
+          надійність. Завдяки своїй унікальній конструкції і формі, він
+          забезпечує максимальний комфорт і підтримку для вашого тіла під час
+          відпочинку.
+        </p>
+      </section>
+      <!-- SECTION-FEATURES -->
+      <section class="section-features">
+        <h3 class="section-features__title">Характеристики</h3>
+        <div class="section-features__img">
+          <img src="./images/detailsPhoto.jpg" alt="parms" />
+        </div>
+        <div class="section-features__params">
+          <ul class="section-features__list">
+            <li class="section-features__item">
+              <p class="section-features__name">Вага</p>
+              <p class="section-features__value">2 кг</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Габарити</p>
+              <p class="section-features__value">191 х 99 см</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Макс. навантаження</p>
+              <p class="section-features__value">100кг</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Вид</p>
+              <p class="section-features__value">Матраци</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Матеріал</p>
+              <p class="section-features__value">Високоякісний вініл</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Конструкція</p>
+              <p class="section-features__value" lang="en">I-beam</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Клапан</p>
+              <p class="section-features__value">Силікон</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Кільк. місць</p>
+              <p class="section-features__value">1</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Вік</p>
+              <p class="section-features__value">Дорослі</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Країна-виробник</p>
+              <p class="section-features__value">Китай</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Габарити упаковки</p>
+              <p class="section-features__value">14.9х36.6х31.5 см</p>
+            </li>
+            <li class="section-features__item">
+              <p class="section-features__name">Гарантія</p>
+              <p class="section-features__value">14 днів</p>
+            </li>
+          </ul>
+        </div>
+        <a href="#order-form" class="to__order-btn"
+          ><p>Замовити зі знижкою</p></a
+        >
+      </section>
+      <!-- SECTION-DELIVERY -->
+      <section class="section-delivery">
+        <h3 class="section-delivery__title">Доставка та оплата</h3>
+        <ul class="section-delivery__list">
+          <li class="section-delivery__item">
+            <img src="./images/NPdelivery.png" alt="delivery" />
+            <div class="section-delivery__text">
+              <h4 class="section-delivery__subtitle">Доставка</h4>
+              <p class="section-delivery__descr">
+                Доставка Новою Поштою на відділення, поштомат або курʼєром.
+              </p>
+            </div>
+          </li>
+          <li class="section-delivery__item">
+            <img src="./images/payment.png" alt="payment" />
+            <div class="section-delivery__text">
+              <h4 class="section-delivery__subtitle">Оплата</h4>
+              <p class="section-delivery__descr">
+                Готівкою при отриманні або передплата на картку банка.
+              </p>
+            </div>
+          </li>
+          <li class="section-delivery__item">
+            <img src="./images/order.png" alt="order" />
+            <div class="section-delivery__text">
+              <h4 class="section-delivery__subtitle">Як замовити?</h4>
+              <p class="section-delivery__descr">
+                Залишіть заявку на нашому сайті, заповнивши форму замовлення
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- SECTION-ORDER -->
+      <section class="section-order" id="order-form">
+        <h3 class="section-order__title">Замовляйте прямо зараз</h3>
+        <form class="section-order__form" action="success.php" method="post">
+          <input
+            class="field"
+            placeholder="Ваше прізвище та імʼя"
+            name="name"
+            type="text"
+            maxlength="255"
+            required=""
+          />
+          <input
+            class="field phone_input"
+            placeholder="Ваш телефон"
+            name="phone"
+            type="text"
+            maxlength="25"
+            required=""
+          />
+          <button class="section-order__btn"><p>Замовити зі знижкою</p></button>
+        </form>
+      </section>
+    </div>
+    <script src="./JS/slider.js"></script>
+    <script src="./JS/timer.js"></script>
+  </body>
+</html>
